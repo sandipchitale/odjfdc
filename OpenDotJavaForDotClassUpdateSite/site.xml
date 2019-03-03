@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/OpenDotJavaForDotClassFeature_1.0.13.jar" id="OpenDotJavaForDotClassFeature" version="1.0.13">
+      <category name="Java Editor"/>
+   </feature>
+   <category-def name="Java Editor" label="Java Editor"/>
+</site>
