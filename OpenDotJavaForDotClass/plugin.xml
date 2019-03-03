@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="opendotjavafordotclass.Activator">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.jdt.ui.preferences.JavaEditorPreferencePage"
+            class="opendotjavafordotclass.ODJFODCPreferencesPage"
+            id="opendotjavafordotclass.ODJFODCPpreferences.page"
+            name="Open .java  for .class Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="opendotjavafordotclass.ODJFODCPreferenceInitializer">
+      </initializer>
+   </extension>
+</plugin>
