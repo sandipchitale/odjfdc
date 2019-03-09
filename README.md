@@ -4,7 +4,7 @@ A simple Eclipse plugin to open .java file for a .class file, if the .java file 
 
 ## How does it work ?
 
-Monitors the opening of a .class editor. Then uses the JDT Java search mechanism to locate the .java file in any of the Java projects in the Eclipse workspace. It also tries to move the same caret offset in .java file. By default closes the .class file, however by setting a preference you can opt-in to not close the .class file.
+Monitors the opening of a .class editor. Then uses the JDT Java search mechanism to locate the .java file in any of the Java projects in the Eclipse workspace. It also tries to move the same caret offset in .java file. By default closes the .class file, however by setting a preference you can opt-in to not close the .class file. The .jar file containng the .class file *has* to be associated with the folder containing the corresponding .java files.
 
 ![Preferences](preferences.png)
 
